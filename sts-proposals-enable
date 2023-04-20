@@ -1,0 +1,27 @@
+# Step 1 :
+
+window -> Preferences -> Editor -> Content Assist -> (click)
+
+
+
+
+# Step 2 :
+
+copy & paste the folowing sequence in 'Auto activation triggers for Java' field --> (Line 12)
+
+.@(#&$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+
+
+
+# Step 3 :
+
+Content Assist -> Advanced (click) -> Check the following in both sets ->  1. Java Proposals 2. Java Type Proposals
+
+
+
+
+# Step 4 :
+
+apply & close (click)
+
