@@ -1,0 +1,21 @@
+<dependency>
+		    <groupId>org.springdoc</groupId>
+		    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		    <version>2.1.0</version>
+</dependency>
+
+Main Configurations
+
+@OpenAPIDefinition(
+		info =@Info(
+				title = "App Title",
+				version = "1.1.2",
+				description = "App Description",
+				contact = @Contact(
+						name = "Author Name",
+						email = "Author Email"
+						)
+				)
+		)
+
+@Tag(name=””, description=””)
