@@ -5,7 +5,12 @@ spring.datasource.password=1811321
 
 # Tag : mysql drivers
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+# MySQL 5 for old versions
+#spring.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+
+#Updated Driver
+spring.jpa.database-platform = org.hibernate.dialect.MySQLDialect
+
 spring.jpa.generate-ddl=true
 
 # Tag : show sql queries in console 
